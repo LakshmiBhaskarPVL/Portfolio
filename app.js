@@ -2,3 +2,4 @@ document.addEventListener('DOMContentLoaded',()=>{const a=document.getElementByI
 function l(){d>0?(a.textContent=b[c].substring(0,d-1),a.style.animation="erasing 0.1s ease-out",d--,setTimeout(l,g)):(c=(c+1)%b.length,setTimeout(i,f))}
 function k(){e=!0,l()}
 i()})
+
